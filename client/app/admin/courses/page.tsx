@@ -4,7 +4,7 @@ import AdminDashboardHero from "@/app/components/Admin/AdminDashboardHero";
 import AdminSidebar from "@/app/components/Admin/Sidebar/AdminSidebar";
 import { AdminProtected } from "@/app/hooks/adminProtected";
 import Headings from "../../utlis/Heading";
-import AllCourses from "../../../app/components/Admin/Course/AllCourses";
+import AllCourses from "../../components/Admin/Course/AllCourses";
 
 
 type Props = {};

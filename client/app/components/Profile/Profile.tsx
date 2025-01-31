@@ -2,7 +2,7 @@ import { useLogoutQuery } from "@/redux/features/auth/authApi";
 import { useGetUserAllCoursesQuery } from "@/redux/features/courses/coursesApi";
 import { signOut } from "next-auth/react";
 import { FC, useEffect, useState } from "react";
-import CourseCard from "../../components/Admin/Course/CourseCard";
+import CourseCard from "../Admin/Course/CourseCard";
 import ChangePassword from "./ChangePassword";
 import ProfileInfo from "./ProfileInfo";
 import SidebarProfile from "./SidebarProfile";
